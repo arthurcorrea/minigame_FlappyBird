@@ -148,6 +148,7 @@ function colidiu(passaro, barreiras) {
                 || estaoSobrepostos(passaro.elemento, inferior)
         }
     })
+
     return colidiu
 }
 
@@ -183,4 +184,5 @@ function FlappyBird() {
 }
 
 new FlappyBird().start()
+
 

@@ -176,6 +176,13 @@ function FlappyBird() {
             if(colidiu(passaro, barreiras)) {
                 clearInterval(temporizador)
                 
+                const reiniciar = document.getElementById('reiniciar')
+                reiniciar.onclick = () => {
+                    window.location.reload()
+                }
+                // setTimeout(() => {
+                //     window.location.reload()
+                // }, 2000)
                 // window.onkeydown = e => new FlappyBird().start()
             }
 
